@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1440px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh,left 50vw top 50vh ;
+}
+
+.card{
+    margin-top: 150px;
+    width: 350px;
+    padding-bottom: 20px;
+
+    
+}
+
+.container_top{
+    height: 140px;
+    background-image: url("images/bg-pattern-card.svg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container_bottom{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img{
+    margin-top: -52px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.box-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-name{
+    padding: 10px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.text-age{
+    color: hsl(227, 10%, 46%);
+}
+
+.text-location{
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    width: 335px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top-style: solid;
+    border-width: 0.3px;
+    border-color: hsl(0, 0%, 59%, 0.5);
+
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    
+}
+h3{
+    padding-bottom: 20px;
+    font-size: 10px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 375px) {
+    body{
+        max-width: 375px;
+        background-color: hsl(185, 75%, 39%);
+        font-family: 'Kumbh Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+        background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 50vw bottom 50vh,left 50vw top 50vh ;
+    }
+    
+    .card{
+        margin-top: 150px;
+        width: 330px;
+        padding-bottom: 20px;
+    
+        
+    }
+    
+    .container_top{
+        height: 140px;
+        background-image: url("images/bg-pattern-card.svg");
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .container_bottom{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    img{
+        margin-top: -52px;
+        border-radius: 100%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: white;
+    }
+    
+    .box-name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .text-name{
+        padding: 10px;
+        font-weight: 700;
+        color: hsl(229, 23%, 23%);
+    }
+    
+    .text-age{
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .text-location{
+        color: hsl(227, 10%, 46%);
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    
+    .footer{
+        width: 330px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top-style: solid;
+        border-width: 0.3px;
+        border-color: hsl(0, 0%, 59%, 0.5);
+    
+    }
+    
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        font-weight: 700;
+        color: hsl(229, 23%, 23%);
+        
+    }
+    h3{
+        padding-bottom: 20px;
+        font-size: 10px;
+        color: hsl(227, 10%, 46%);
+        font-weight: 400;
+    }
+    
+    
+    
+}
